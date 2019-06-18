@@ -4,5 +4,21 @@
 }
 
 .text-input button {
-    margin-right: 5px;
+    margin-right: 5px;    
 }
+
+@keyframes bounce {
+    0% {transform: translateX(100%);}
+    30%, 50%, 80%, 100% {transform: translateX(0);} 
+    40% {transform: translateX(40px);} 
+    60% {transform: translateX(15px);} 
+}
+
+.post {
+    animation: bounce 1.2s;
+    animation-play-state: running;    
+    padding: 3px 5px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+  }

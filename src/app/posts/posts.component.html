@@ -1,8 +1,7 @@
 <div class="container">
-<div *ngFor="let post of posts.posts" class="jumbotron">
-  {{post.message}}
-</div>
-
+  <div *ngFor="let post of posts.posts" class="card post bounce" >
+    {{post.message}}
+  </div>
 
   <div class="fixed-bottom text-input">
     <button (click)="post()" class="btn btn-secondary">mermer</button>    
