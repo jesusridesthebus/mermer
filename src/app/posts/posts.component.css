@@ -1,0 +1,8 @@
+.text-input {
+    display: inline-flex;
+    margin: 4px 6px;
+}
+
+.text-input button {
+    margin-right: 5px;
+}
